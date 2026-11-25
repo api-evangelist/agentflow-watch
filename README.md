@@ -66,7 +66,7 @@
 
 AgentFlow provides a live map of AI‑agent money on the Base blockchain, labeling autonomous AI‑agent wallets and tracking their USDC flow in real time. The platform scores each Base wallet based on activity patterns, distinguishing genuine AI agents from MEV bots and market makers. Users can monitor wallets via a free dashboard and obtain API access to receive real‑time updates or webhook notifications when a wallet goes silent. The service offers a free tier with rate‑limited calls and a paid tier for unlimited, machine‑payable usage.
 
-**Areas:** AI · Finance · Blockchain · Base · USDC · Monitoring
+**Areas:** Artificial Intelligence · Finance · Blockchain · Base · USDC · Monitoring
 
 ## AgentFlow on APIs.io
 
@@ -80,18 +80,24 @@ Everything profiled for AgentFlow is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentflow-watch-mcp.yml](https://apis.io/servers/agentflow-watch/agentflow-watch-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentflow Watch Authentication](https://apis.io/security/agentflow-watch/agentflow-watch-authentication/)
-- [Agentflow Watch Domain Security](https://apis.io/security/agentflow-watch/agentflow-watch-domain-security/)
+- [AgentFlow Authentication](https://apis.io/security/agentflow-watch/agentflow-watch-authentication/)
+- [AgentFlow Domain Security](https://apis.io/security/agentflow-watch/agentflow-watch-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentflow Watch Scopes](https://apis.io/scopes/agentflow-watch/agentflow-watch-scopes/)
+- [AgentFlow Scopes](https://apis.io/scopes/agentflow-watch/agentflow-watch-scopes/)
 
 ## Where to find this API
 
@@ -103,7 +109,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 11.0** — emerging · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 10.2** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
@@ -114,7 +120,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Developer ergonomics | 23.1 |
 | Access clarity | 0.0 |
 
-**Agent readiness 6.3** — agent-aware
+**Agent readiness 7.6** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -130,7 +136,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -140,8 +146,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 9.1** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentflow-watch/](https://apis.io/providers/agentflow-watch/).
 
